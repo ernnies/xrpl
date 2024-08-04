@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es2017"
+    ],
+    "outDir": "./dist",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": false,
+    "skipLibCheck": true,
+    "declaration": true,
+    "strictNullChecks": true
+  },
+  "references": [
+    {
+      "path": "../isomorphic/tsconfig.build.json"
+    }
+  ],
+  "files": [],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
